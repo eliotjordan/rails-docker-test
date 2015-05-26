@@ -1,6 +1,6 @@
 cache:
   directories:
-  - var/lib/docker
+  - /var/lib/docker
 
 language: ruby
 sudo: true
