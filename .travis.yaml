@@ -1,4 +1,15 @@
+cache: bundler
+language: ruby
 sudo: true
+notifications:
+  email: false
+
+rvm:
+  - 2.1
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
 - curl -sLo - http://j.mp/install-travis-docker | sh -xe
