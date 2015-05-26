@@ -1,4 +1,7 @@
-cache: bundler
+cache:
+  directories:
+  - var/lib/docker
+
 language: ruby
 sudo: true
 notifications:
